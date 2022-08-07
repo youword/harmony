@@ -1,0 +1,16 @@
+<div class="container">
+<!--    文件消息显示区域-->
+    <div class="text">
+        <text id="Text">{{fileMessage}}</text>
+    </div>
+<!--    开始写入-->
+    <div class="btn_div">
+        <button class="btn_btn" value="开始写入" onclick="onOutput">
+        </button>
+    </div>
+<!--    开始读取-->
+    <div class="btn_div">
+    <button class="btn_btn" value="开始读取" onclick="onInput">
+    </button>
+    </div>
+</div>
